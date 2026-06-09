@@ -1,60 +1,75 @@
-# Union
+[update-readmes]   Mode: rewrite — migrating to template structure...
+# union
 
-Union is a style engine designed to provide a unified style description to a set
-of separate output styles.
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/union)
 
-## Getting Started
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-To use Union in your Kirigami application, ensure it is installed and then use
-`QT_QUICK_CONTROLS_STYLE=org.kde.union` or equivalent in code.
+## Architecture
 
-To learn more about how to use or develop Union, see the [Union Documentation][].
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
 
-[Union Documentation]: https://api.kde.org/union-index.html
+## Install
 
-Note that currently there is no documentation about developing styles for Union.
-This is due to there being only one input format plugin that uses KDE Plasma's
-SVG styling.
-
-## Building
-
-To build Union, you will need a recent version of CMake and Qt version 6.8 or
-higher. To build the Plasma SVG input plugin, you will additionally need
-[RapidYAML][rapidyaml] version 0.6 or higher.
-
-[rapidyaml]: https://github.com/biojppm/rapidyaml
-
-You can build and install Union [manually with CMake](cmake) like this:
-
-[cmake]: https://develop.kde.org/docs/getting-started/building/cmake-build/
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
 
 ```bash
-cmake -B build/ --install-prefix /usr
-cmake --build build/ --parallel
-sudo cmake --install build/
+git clone https://github.com/Interested-Deving-1896/union.git
+cd union
 ```
 
-Or with [kde-builder][]:
+## Usage
 
-[kde-builder]: https://develop.kde.org/docs/getting-started/building/kde-builder-setup/
+<!-- Add usage examples here. This section is yours — the AI will not modify it. -->
 
-```bash
-kde-builder union
+## Configuration
+
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
+
+## CI
+
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
+
+## Mirror chain
+
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/union`](https://github.com/Interested-Deving-1896/union) and mirrored through:
+
+```
+Interested-Deving-1896/union  ──►  OpenOS-Project-OSP/union  ──►  OpenOS-Project-Ecosystem-OOC/union
 ```
 
-To allow building the code examples, use:
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
 
-```bash
-cmake -B build --install-prefix /usr -DBUILD_EXAMPLES=ON
-```
+## Contributors
 
-Or:
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
 
-```bash
-kde-builder union
-kde-builder union --no-include-dependencies --cmake-options=-DBUILD_EXAMPLES=ON
-```
+## Origins
 
-## Get Involved
+<!-- AI:start:origins -->
+_Original project — no upstream fork._
+<!-- AI:end:origins -->
 
-You may contact the Union developers in the [Union room](https://go.kde.org/matrix/#/#union:kde.org) on [Matrix](https://community.kde.org/Matrix).
+## Resources
+
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
+
+## License
+
+<!-- AI:start:license -->
+<!-- License not detected — add a LICENSE file to this repo. -->
+<!-- AI:end:license -->
